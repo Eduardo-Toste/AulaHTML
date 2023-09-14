@@ -1,18 +1,19 @@
-Dopetrope by HTML5 UP
+Hyperspace by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-A spiffy new blog/magazine style responsive site template with a flat/minimal
-design aesthetic.
+So I've had the wireframe for this particular design kicking around for some time, but with all
+the other interesting (and in some cases, semi-secret) projects I've been working on it took me
+a little while to get to actually designing and coding it. Fortunately, things have eased up
+enough for me to finaly get around to it, so I'm happy to introduce Hyperspace: a fun, blocky,
+one-page design with a lot of color, a bit of animation, and an additional "generic" page template
+(because hey, even one-page sites usually need an interior page or two). Hope you dig it :)
 
-Demo images* are courtesy of the incredibly talented Janine Pring aka Dreametry Doodle.
-See more of her amazing work (and her awesome t-shirt line) @ dreametrydoodle.com
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Janine's work without her explicit permission!)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+(* = not included)
 
 AJ
 aj@lkn.io | @ajlkn
@@ -21,11 +22,12 @@ aj@lkn.io | @ajlkn
 Credits:
 
 	Demo Images:
-		Dreametry Doodle (dreametrydoodle.com)
+		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)
 
 	Other:
 		jQuery (jquery.com)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
