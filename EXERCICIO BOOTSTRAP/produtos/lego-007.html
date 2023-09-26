@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Detalhes do Produto</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/EXERCICIO BOOTSTRAP/img/0071.jpg" class="img-fluid" alt="lego007">
+            </div>
+            <div class="col-md-6">
+                <h2>LEGO® Speed Champions 007 Aston Martin DB5</h2>
+                <p>Réplica do carro Aston Martin – Apresenta um modelo detalhado do icônico Aston Martin cinza de James Bond com inserções de liga de liga de raio de prata moldadas e 4 placas de licença.</p>
+                <p>Preço: R$ 128,70</p>
+
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="videos-tab" data-toggle="tab" href="#videos" role="tab" aria-controls="videos" aria-selected="true">Vídeos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="fotos-tab" data-toggle="tab" href="#fotos" role="tab" aria-controls="fotos" aria-selected="false">Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">Comentários</a>
+                    </li>
+                </ul>
+                
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="videos" role="tabpanel" aria-labelledby="videos-tab">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MTrZ6vxV7t8?si=P8e6DDTL006KdoSf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="tab-pane fade" id="fotos" role="tabpanel" aria-labelledby="fotos-tab">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="/EXERCICIO BOOTSTRAP/img/0071.jpg" class="img-fluid" alt="lego007">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="/EXERCICIO BOOTSTRAP/img/0072.jpg" class="img-fluid" alt="lego007">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="/EXERCICIO BOOTSTRAP/img/0073.jpg" class="img-fluid" alt="lego007">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="/EXERCICIO BOOTSTRAP/img/0074.jpg" class="img-fluid" alt="lego007">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+                    </div>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" class="form-control" id="quantidade">
+                </div>
+                <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

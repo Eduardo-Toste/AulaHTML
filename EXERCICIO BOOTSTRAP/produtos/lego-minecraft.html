@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Detalhes do Produto</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/EXERCICIO BOOTSTRAP/img/minecraft1.jpg" class="img-fluid" alt="legominecraft">
+            </div>
+            <div class="col-md-6">
+                <h2>LEGO® Minecraft® A Casa Cogumelo</h2>
+                <p>Minecraft na vida real – Os conjuntos LEGO Minecraft oferecem aos jogadores uma nova maneira de aproveitar o jogo favorito, com personagens, cenas e recursos trazidos à vida com uma mistura criativa de elementos e peças LEGO</p>
+                <p>Preço: R$ 138,90</p>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="videos-tab" data-toggle="tab" href="#videos" role="tab" aria-controls="videos" aria-selected="true">Vídeos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="fotos-tab" data-toggle="tab" href="#fotos" role="tab" aria-controls="fotos" aria-selected="false">Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">Comentários</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="videos" role="tabpanel" aria-labelledby="videos-tab">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rQDSe3Jirbk?si=YJ3XWFfguZQAGHk9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="tab-pane fade" id="fotos" role="tabpanel" aria-labelledby="fotos-tab">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="/EXERCICIO BOOTSTRAP/img/minecraft1.jpg" class="img-fluid" alt="legominecraft">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="/EXERCICIO BOOTSTRAP/img/minecraft2.jpg" class="img-fluid" alt="legominecraft">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="/EXERCICIO BOOTSTRAP/img/minecraft3.jpg" class="img-fluid" alt="legominecraft">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="/EXERCICIO BOOTSTRAP/img/minecraft4.jpg" class="img-fluid" alt="legominecraft">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" class="form-control" id="quantidade">
+                </div>
+                <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
