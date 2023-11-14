@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <h1>Exercício 2</h1>
+    <label for="labelNumero">Número:</label>
+    <label id="labelNumero">10</label>
+
+    <script>
+        var labelNumero = document.getElementById("labelNumero");
+        var valorAtual = 10;      
+        var intervalo = setInterval(atualizarNumero, 100); 
+        
+        function atualizarNumero() {
+            if (valorAtual <= 100) {
+                labelNumero.textContent = valorAtual;
+                valorAtual++;
+            } else {
+                clearInterval(intervalo); 
+            }
+        }
+    </script>
+</body>
+</html>
